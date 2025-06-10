@@ -7,6 +7,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+html, body {
+  overflow-x: hidden; /* evita el desbordamiento horizontal */
+  max-width: 120vw;   /* limita el ancho al viewport */
 }
 
 body {
@@ -19,7 +25,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 nav {
@@ -137,7 +143,7 @@ footer {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100%; /* MUY importante */
+    height: 100vh; /* MUY importante */
     z-index: 1000;
     display: none;
     background-color: rgba(0, 0, 0, 0.5);
