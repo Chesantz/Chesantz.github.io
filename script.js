@@ -1,96 +1,118 @@
 const detailedContent = {
   primaria: {
     subatomico: {
-      title: "¡Descubre las partículas más pequeñas!",
-      subtitle: "Contenido adaptado para nivel primaria",
-      content: `
-        <p>Imagina que tienes un juguete de LEGO. Si lo desarmas completamente, obtienes las piezas más pequeñas. 
-        Los átomos son como esas piezas, pero mucho más pequeñas. 
-        Están hechos de tres partes: protones (rojos), neutrones (blancos) y electrones (azules que giran muy rápido).</p>
-      `,
-      examples: [
-        "Un átomo de hidrógeno tiene 1 protón y 1 electrón",
-        "Un átomo de oxígeno tiene 8 protones, 8 neutrones y 8 electrones",
-        "Los electrones son 2000 veces más pequeños que los protones",
-      ],
-      curiosities: [
-        "Un átomo es tan pequeño que millones caben en el punto de esta oración",
-        "Los electrones se mueven tan rápido que parecen estar en todas partes al mismo tiempo",
-        "Si un átomo fuera un estadio de fútbol, el núcleo sería como una pelota de ping pong",
-      ],
-    },
-    molecular: {
-      title: "¡Átomos que se hacen amigos!",
-      subtitle: "Contenido adaptado para nivel primaria",
-      content: `
-        <p>Cuando los átomos se juntan, forman moléculas. Es como cuando juegas con bloques de construcción y los unes para hacer algo más grande. 
-        El agua que bebes está hecha de dos átomos de hidrógeno y uno de oxígeno que se hicieron amigos.</p>
-      `,
-      examples: [
-        "El agua (H₂O) está en todo nuestro cuerpo",
-        "El azúcar está hecha de carbono, hidrógeno y oxígeno",
-        "El aire que respiramos tiene moléculas de oxígeno",
-      ],
-      curiosities: [
-        "Tu cuerpo está hecho de billones de moléculas diferentes",
-        "Las moléculas son tan pequeñas que no las puedes ver",
-        "Algunas moléculas huelen, como las de las flores",
-      ],
-    },
-    celular: {
-      title: "¡Las casitas de la vida!",
-      subtitle: "Contenido adaptado para nivel primaria",
-      content: `
-        <p>Las células son como pequeñas casitas donde vive la vida. Tu cuerpo está hecho de millones de estas casitas trabajando juntas. 
-        Cada célula tiene todo lo que necesita para vivir, como una cocina, un dormitorio y una oficina.</p>
-      `,
-      examples: [
-        "Tus músculos están hechos de células musculares",
-        "Tu cerebro tiene células especiales llamadas neuronas",
-        "Las plantas también tienen células, pero diferentes a las nuestras",
-      ],
-      curiosities: [
-        "Eres más alto ahora porque tienes más células que cuando eras bebé",
-        "Algunas células viven solo unos días, otras toda tu vida",
-        "Las células más grandes son los huevos de las aves",
-      ],
-    },
-    macroscopico: {
-      title: "¡Todo lo que puedes ver!",
-      subtitle: "Contenido adaptado para nivel primaria",
-      content: `
-        <p>Este es el nivel de las cosas que puedes ver y tocar: tú, los animales, las plantas, las rocas. 
-        Todo está hecho de millones de células trabajando juntas como un gran equipo.</p>
-      `,
-      examples: [
-        "Tu mascota es un organismo macroscópico",
-        "Los árboles del parque son organismos macroscópicos",
-        "Tú eres un organismo macroscópico muy especial",
-      ],
-      curiosities: [
-        "Un elefante tiene más células que una hormiga",
-        "Las ballenas son los animales más grandes del mundo",
-        "Algunos árboles pueden vivir más de 1000 años",
-      ],
-    },
-    ecosistemico: {
-      title: "¡La gran familia de la naturaleza!",
-      subtitle: "Contenido adaptado para nivel primaria",
-      content: `
-        <p>Un ecosistema es como una gran familia donde todos se ayudan. Los animales, las plantas, el agua, el aire y el suelo trabajan juntos. 
-        Es como un parque donde cada cosa tiene su trabajo especial.</p>
-      `,
-      examples: [
-        "En un bosque, los árboles dan oxígeno y los animales dan dióxido de carbono",
-        "En un lago, los peces comen plantas y las plantas limpian el agua",
-        "En tu jardín, las abejas ayudan a las flores y las flores les dan comida",
-      ],
-      curiosities: [
-        "Los ecosistemas pueden ser tan grandes como un océano o tan pequeños como un charco",
-        "Si cuidas la naturaleza, ella te cuida a ti",
-        "Cada animal y planta tiene un trabajo importante en su ecosistema",
-      ],
-    },
+    title: "Estructura Subatómica",
+    subtitle: "Nivel secundario y universitario",
+    content: `
+      Los átomos no son indivisibles: están formados por partículas aún más pequeñas llamadas protones, neutrones y electrones. 
+      El núcleo atómico (protones y neutrones) concentra casi toda la masa, mientras que los electrones giran a gran velocidad en la corteza. 
+      A nivel más profundo, los protones y neutrones están compuestos por quarks, mantenidos unidos por gluones. 
+      Este nivel explica fenómenos como la radiactividad, la espectroscopía y la energía nuclear.
+    `,
+    examples: [
+      "El electrón tiene carga negativa y masa casi nula",
+      "El protón tiene carga positiva y masa similar a la del neutrón",
+      "El neutrón es eléctricamente neutro pero fundamental en la estabilidad nuclear",
+      "El átomo de uranio se utiliza en reactores nucleares por su inestabilidad",
+    ],
+    curiosities: [
+      "Más del 99% de la masa del átomo está en el núcleo",
+      "Los quarks nunca existen solos, siempre en grupos",
+      "El modelo atómico ha evolucionado desde Dalton hasta el modelo cuántico actual",
+    ],
+  },
+
+  molecular: {
+    title: "Organización Molecular",
+    subtitle: "Nivel secundario y universitario",
+    content: `
+      Cuando los átomos se unen mediante enlaces químicos, forman moléculas. 
+      Pueden ser pequeñas como el oxígeno (O₂) o muy complejas como las proteínas. 
+      La estructura tridimensional de una molécula determina sus propiedades físicas y químicas. 
+      Las moléculas orgánicas son la base de la vida, y las inorgánicas permiten el funcionamiento de los sistemas naturales y tecnológicos.
+    `,
+    examples: [
+      "El agua (H₂O) regula la temperatura de los seres vivos y es solvente universal",
+      "La glucosa (C₆H₁₂O₆) es la fuente primaria de energía en organismos",
+      "El ADN y ARN son macromoléculas que almacenan y transmiten información genética",
+    ],
+    curiosities: [
+      "Las moléculas de ADN pueden estirarse hasta más de 2 metros en una célula",
+      "Las enzimas aceleran reacciones químicas millones de veces",
+      "Los plásticos son macromoléculas diseñadas por el ser humano",
+      "El ozono (O₃) protege la Tierra de la radiación ultravioleta",
+    ],
+  },
+
+  celular: {
+    title: "Nivel Celular",
+    subtitle: "Nivel secundario y universitario",
+    content: `
+      La célula es la unidad básica de la vida. 
+      Pueden ser procariotas (bacterias, arqueas) o eucariotas (animales, vegetales, hongos, protozoos). 
+      En ellas ocurren procesos vitales como el metabolismo, la división celular, la transmisión genética y la comunicación intracelular. 
+      Gracias al estudio de las células, comprendemos fenómenos como la herencia, la inmunidad y las enfermedades.
+    `,
+    examples: [
+      "Las neuronas transmiten impulsos eléctricos y señales químicas",
+      "Las células musculares contienen proteínas contráctiles (actina y miosina)",
+      "Las células epiteliales forman barreras protectoras en órganos",
+      "Las células madre pueden diferenciarse en distintos tipos celulares"
+    ],
+    curiosities: [
+      "El cuerpo humano tiene unas 37 billones de células",
+      "Cada célula humana contiene aproximadamente 2 metros de ADN",
+      "Las bacterias se dividen rápidamente: algunas en 20 minutos",
+      "Los virus no son células, pero infectan células para reproducirse",
+
+    ],
+  },
+
+  macroscopico: {
+    title: "Nivel Macroscópico",
+    subtitle: "Nivel secundario y universitario",
+    content: `
+      Es el nivel donde se observan organismos completos y sus órganos y sistemas. 
+      Los tejidos se agrupan en órganos, y los órganos en sistemas que trabajan de manera coordinada. 
+      Aquí se estudia la anatomía, fisiología y comportamiento de los seres vivos.
+    `,
+    examples: [
+      "El sistema nervioso procesa información y coordina respuestas",
+      "Los pulmones realizan el intercambio de oxígeno y dióxido de carbono",
+      "Los animales y plantas enteros son ejemplos macroscópicos",
+      "El sistema digestivo transforma los alimentos en nutrientes"
+    ],
+    curiosities: [
+      "Los elefantes tienen el cerebro más grande de los animales terrestres",
+      "El cuerpo humano tiene más de 600 músculos",
+      "Las plantas también tienen sistemas de transporte: xilema y floema",
+    ],
+  },
+
+  ecosistemico: {
+    title: "Nivel Ecosistémico",
+    subtitle: "Nivel secundario y universitario",
+    content: `
+      Un ecosistema es la interacción entre los seres vivos (comunidad) y su medio físico (suelo, agua, aire, energía). 
+      Los organismos cumplen roles como productores, consumidores y descomponedores. 
+      Los ecosistemas varían en tamaño: desde un charco hasta toda la biosfera. 
+      En este nivel se estudian cadenas alimenticias, ciclos biogeoquímicos y el impacto humano en la naturaleza.
+    `,
+    examples: [
+      "Un bosque tropical con árboles, animales y suelos fértiles",
+      "Un arrecife de coral con peces, algas y corrientes marinas",
+      "Una pradera donde conviven herbívoros, depredadores y pastos",
+      "Un desierto con cactus adaptados a la sequía",
+      "Un lago con peces, plantas acuáticas y microorganismos"
+    ],
+    curiosities: [
+      "Los arrecifes coralinos albergan más especies que cualquier otro ecosistema marino",
+      "El Amazonas produce el 20% del oxígeno del planeta",
+      "Los humedales filtran agua y evitan inundaciones",
+      "El cambio climático altera ciclos de carbono y agua",
+      "Los ecosistemas urbanos también son objeto de estudio"
+    ],
+  },
   },
 }
 
@@ -441,3 +463,4 @@ document.addEventListener("keydown", (e) => {
     nextQuestion()
   }
 })
+
